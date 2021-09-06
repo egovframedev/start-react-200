@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import SpreadOperator from './R011_SpreadOperator';
+import ClassPrototype from './R012_Class&Prototype';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>전개 연산자 사용하기</p>
-      <SpreadOperator />
+      <p>Class 사용하기</p>
+      <ClassPrototype />
     </div>
   );
 }
