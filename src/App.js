@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Jquery from './R016_Jquery';
+import Props from './part2/R017_Props';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>jQuery 사용하기 : npm install jquery</p>
-      <Jquery />
+      <p>Props 사용하기</p>
+      <Props props_val="THIS IS PROPS" />
     </div>
   );
 }
