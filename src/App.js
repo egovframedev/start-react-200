@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import ForceUpdate from './part2/R026_ForceUpdate';
+import ComponentClass from './part2/R027_ComponentClass';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>State 사용하기</p>
-      <ForceUpdate />
+      <p>Component 사용하기</p>
+      <ComponentClass />
     </div>
   );
 }
