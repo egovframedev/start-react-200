@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import SetState from './part2/R025_SetState';
+import ForceUpdate from './part2/R026_ForceUpdate';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>Props 사용하기</p>
-      <SetState />
+      <p>State 사용하기</p>
+      <ForceUpdate />
     </div>
   );
 }
