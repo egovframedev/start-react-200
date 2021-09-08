@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-/** 027 Component 사용하기 - class형 컴포넌트 */
-class R027_ComponentClass extends Component {
+/** 028. PureComponent 사용하기(class형 컴포넌트) */
+class R028_PureComponentClass extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
       StateString: 'react',
-      StateArrayObj: ['react', { react: '200'}]
-    }
+      StateArrayObj: ['react', {react: '200'}]
+    };
   }
 
   buttonClick = (type) => {
     if(type === 'String') {
       this.setState({ StateString: 'react' });
     } else {
-      this.setState({ StateArrayObj: ['react', {react: '200'}]});
+      this.setState({ StateArrayObj: ['react', {react: '400'}]});
     }
     console.log(this.state);
   }
@@ -30,4 +30,4 @@ class R027_ComponentClass extends Component {
   }
 }
 
-export default R027_ComponentClass;
+export default R028_PureComponentClass;
