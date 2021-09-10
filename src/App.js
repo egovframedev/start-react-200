@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import ReturnMap from './part2/R033_ReturnMap';
+import ReactstrapAlerts from './part2/R034_ReactstrapAlerts';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>컴포넌트 사용하기</p>
-      <ReturnMap />
+      <p>reactstrap Alert 사용하기</p>
+      <ReactstrapAlerts />
     </div>
   );
 }
