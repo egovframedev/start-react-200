@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ReactstrapButtons from './part2/R039_ReactstrapButtons';
+import ReactstrapCard from './part2/R040_ReactstrapCard';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>ReactStrap (React + Bootstrap4) 사용하기</p>
-      <ReactstrapButtons />
+      <ReactstrapCard />
     </div>
   );
 }
